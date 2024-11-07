@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explosive Registration Form</title>
+    <link rel="stylesheet" href="regstyles.css">
+</head>
+<body >
+    <div class="container">
+        <h2><i>Complete Your Account</i></h2>
+        <form action="connect.php" method="POST">
+       
+      
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Others</label><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
